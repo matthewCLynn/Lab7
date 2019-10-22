@@ -33,7 +33,7 @@ public class NameValidator
 		check = Pattern.matches("[\\d]{3}[-][\\d]{3}[-][\\d]{4}", phone);
 		System.out.println("The phone number " + phone +" qualifies: " + check);
 		//date check
-		check = Pattern.matches("[\\d]{2}[/][\\d]{2}[/][\\d]{4}", date);
+		check = Pattern.matches("[01][\\d][/][123][\\d][/][\\d]{4}", date);
 		System.out.println("The date " + date + " qualifies: " + check);
 		
 		scan.close();
